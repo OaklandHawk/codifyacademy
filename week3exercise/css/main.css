@@ -1,0 +1,33 @@
+nav {
+	background-color: orange;
+	height: 100px;
+}
+li {
+	display: inline-block;
+	background-color: orange;
+	padding: 10px;
+}
+li:hover {
+	background-color: green;
+	transition: 0.5s ease;
+	font-size: x-large;
+	color: black;
+}
+ul {
+	text-align: center;
+	display: block;
+	padding-top: 30px;
+	margin: none;
+}
+div {
+	text-align: center;
+}
+button{
+	padding: 20px;
+}
+button:hover {
+	background-color: grey;
+	border: none;
+	padding: 30px;
+	color: white;
+}
