@@ -1,3 +1,6 @@
+body {
+	height: 600px;
+}
 .nav {
 	width: 100%;
 	float: left;
@@ -14,36 +17,91 @@ li {
 	padding: 70px;
 	font-size: x-large;
 	font-weight: bold;
+	color: white;
 }
-form {
-	padding: 2px;
-	font-size: 25px;
-	border: 2px solid grey;
-	float: right;
-	width: 20%;
-	background-color: white;
-}
-form button {
-	float: right;
-	width: 30%;
-	padding: 10px;
-	background: white;
-	color: grey;
-	border: 2px solid grey;
-	cursor: pointer;
-	margin: none;
-}
-* {
-	box-sizing: border-box;
-}
-input {
-	height: 37px;
-	float: right;
-	border: 2px solid grey;
-}
-.search-container {
-	background-color: red;
+.three {
+	background-color: tan;
 	width: 100%;
 	height: 100%;
 	display: block;
 }
+p {
+	position: absolute;
+	top: 150px;
+	width: 30%;
+	left: 800px;
+	color: green;
+	font-size: 40px;
+}
+img {
+	 position: absolute; /* Sit on top of the page content */
+    display: inline-block; /* Hidden by default */
+    width: 40%; /* Full width (cover the whole page) */
+    height: 45%; /* Full height (cover the whole page) */
+    top: 150px; 
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other */
+}
+footer {
+	background-color: green;
+	width: 100%;
+	height: 100px;
+}
+.one {
+	display: inline-block;
+	position: absolute;
+	left: 800px;
+	bottom: 250px;
+	background-color: green;
+	height: 60px;
+	width: 250px;
+}
+.two {
+	display: inline-block;
+	position: absolute;
+	left: 1100px;
+	bottom: 250px;
+	background-color: orange;
+	height: 60px;
+	width: 250px;
+}
+span {
+	color: orange;
+}
+.four {
+	left: 1100px;
+	top: 100px;
+	position: absolute;
+	width: 250px;
+	height: 50px;
+}
+.facebook {
+  color: white;
+  position: absolute;
+  display: inline-block;
+  bottom: 40px;
+  left: 650px;
+  font-weight: bold;
+  font-size: 20px;
+ }
+ .five {
+ 	position: absolute;
+ 	display: inline-block;
+ 	bottom: 40px;
+ 	left: 700px;
+ 	background-color: green;
+ 	border-color: green;
+ 	color: white;
+  }
+  .six {
+  	position: absolute;
+ 	display: inline-block;
+ 	bottom: 40px;
+ 	left: 750px;
+ 	background-color: green;
+ 	border-color: green;
+ 	color: white;
+  }
