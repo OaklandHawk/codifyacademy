@@ -32,9 +32,9 @@ li {
 
 p {
 	position: absolute;
-	top: 150px;
+	top: 160px;
 	width: 30%;
-	left: 800px;
+	left: 700px;
 	color: green;
 	font-size: 35px;
 }
@@ -42,7 +42,7 @@ p {
 img {
 	position: absolute; /* Sit on top of the page content */
     display: inline-block; /* Hidden by default */
-    width: 40%; /* Full width (cover the whole page) */
+    width: 30%; /* Full width (cover the whole page) */
     height: 45%; /* Full height (cover the whole page) */
     top: 150px; 
     left: 200px;
@@ -60,7 +60,7 @@ footer {
 .one {
 	display: inline-block;
 	position: absolute;
-	left: 800px;
+	left: 600px;
 	bottom: 200px;
 	background-color: green;
 	height: 60px;
@@ -70,7 +70,7 @@ footer {
 .two {
 	display: inline-block;
 	position: absolute;
-	left: 1100px;
+	left: 850px;
 	bottom: 200px;
 	background-color: orange;
 	height: 60px;
@@ -82,7 +82,7 @@ span {
 }
 
 .four {
-	left: 1100px;
+	left: 800px;
 	top: 100px;
 	position: absolute;
 	width: 250px;
@@ -119,6 +119,98 @@ span {
  	color: white;
   }
 
+  @media (max-width: 1100px) {
+
+	p {
+	position: absolute;
+	top: 200px;
+	width: 30%;
+	left: 600px;
+	color: green;
+	font-size: 30px;
+}
+
+	.two {
+	display: inline-block;
+	position: fixed;
+	left: 780px;
+	bottom: 180px;
+	background-color: orange;
+	height: 40px;
+	width: 120px;
+}
+
+	img {
+	position: absolute; /* Sit on top of the page content */
+    display: inline-block; /* Hidden by default */
+    width: 40%; /* Full width (cover the whole page) */
+    height: 30%; /* Full height (cover the whole page) */
+    top: 200px; 
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other */
+}
+
+	.one {
+	display: inline-block;
+	position: fixed;
+	left: 600px;
+	bottom: 180px;
+	background-color: green;
+	height: 40px;
+	width: 120px;
+}
+
+	li {
+	display: inline;
+	padding: 5px;
+	font-size: x-large;
+	font-weight: bold;
+	color: white;
+}
+
+	.four {
+	left: 500px;
+	top: 120px;
+	position: absolute;
+	width: 125px;
+	height: 40px;
+}
+
+	.facebook {
+  color: white;
+  position: absolute;
+  display: inline-block;
+  bottom: 40px;
+  left: 150px;
+  background-color: green;
+  border-color: green;
+ }
+
+ 	.five {
+ 	position: absolute;
+ 	display: inline-block;
+ 	bottom: 40px;
+ 	left: 200px;
+ 	background-color: green;
+ 	border-color: green;
+ 	color: white;
+  }
+
+	.six {
+  	position: absolute;
+ 	display: inline-block;
+ 	bottom: 40px;
+ 	left: 250px;
+ 	background-color: green;
+ 	border-color: green;
+ 	color: white;
+  }
+
+}
+
+
 @media (max-width: 800px) {
 
 	p {
@@ -133,7 +225,7 @@ span {
 	.two {
 	display: inline-block;
 	position: absolute;
-	left: 400px;
+	left: 300px;
 	bottom: 250px;
 	background-color: orange;
 	height: 40px;
@@ -155,7 +247,7 @@ span {
 	.one {
 	display: inline-block;
 	position: absolute;
-	left: 580px;
+	left: 480px;
 	bottom: 250px;
 	background-color: green;
 	height: 40px;
@@ -174,7 +266,7 @@ span {
 	left: 400px;
 	top: 120px;
 	position: absolute;
-	width: 300px;
+	width: 200px;
 	height: 50px;
 }
 
