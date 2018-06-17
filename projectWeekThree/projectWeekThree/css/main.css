@@ -1,0 +1,302 @@
+body {
+	height: 600px;
+}
+
+.nav {
+	width: 100%;
+	float: left;
+	background-color: orange;
+}
+
+/*This styling takes away the bullet points*/
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+/*This property of the element display is inline so the words are horizontal*/
+li {
+	display: inline;
+	padding: 70px;
+	font-size: x-large;
+	font-weight: bold;
+	color: white;
+}
+
+.three {
+	background-color: tan;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+p {
+	position: absolute;
+	top: 150px;
+	width: 30%;
+	left: 800px;
+	color: green;
+	font-size: 35px;
+}
+
+img {
+	position: absolute; /* Sit on top of the page content */
+    display: inline-block; /* Hidden by default */
+    width: 40%; /* Full width (cover the whole page) */
+    height: 45%; /* Full height (cover the whole page) */
+    top: 150px; 
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other */
+}
+
+footer {
+	background-color: green;
+	width: 100%;
+	height: 100px;
+}
+
+.one {
+	display: inline-block;
+	position: absolute;
+	left: 800px;
+	bottom: 200px;
+	background-color: green;
+	height: 60px;
+	width: 250px;
+}
+
+.two {
+	display: inline-block;
+	position: absolute;
+	left: 1100px;
+	bottom: 200px;
+	background-color: orange;
+	height: 60px;
+	width: 250px;
+}
+
+span {
+	color: red;
+}
+
+.four {
+	left: 1100px;
+	top: 100px;
+	position: absolute;
+	width: 250px;
+	height: 50px;
+}
+
+.facebook {
+  color: white;
+  position: absolute;
+  display: inline-block;
+  bottom: 40px;
+  left: 650px;
+  background-color: green;
+  border-color: green;
+ }
+
+.five {
+ 	position: absolute;
+ 	display: inline-block;
+ 	bottom: 40px;
+ 	left: 700px;
+ 	background-color: green;
+ 	border-color: green;
+ 	color: white;
+  }
+ 
+.six {
+  	position: absolute;
+ 	display: inline-block;
+ 	bottom: 40px;
+ 	left: 750px;
+ 	background-color: green;
+ 	border-color: green;
+ 	color: white;
+  }
+
+@media (max-width: 800px) {
+
+	p {
+	position: absolute;
+	top: 150px;
+	width: 40%;
+	left: 400px;
+	color: green;
+	font-size: 30px;
+}
+
+	.two {
+	display: inline-block;
+	position: absolute;
+	left: 400px;
+	bottom: 250px;
+	background-color: orange;
+	height: 40px;
+	width: 150px;
+}
+
+	img {
+	position: absolute; /* Sit on top of the page content */
+    display: inline-block; /* Hidden by default */
+    width: 30%; /* Full width (cover the whole page) */
+    height: 40%; /* Full height (cover the whole page) */
+    top: 150px; 
+    left: 100px;
+    right: 0;
+    bottom: 0
+    z-index: 2; /* Specify a stack order in case you're using a different order for other */
+}
+
+	.one {
+	display: inline-block;
+	position: absolute;
+	left: 580px;
+	bottom: 250px;
+	background-color: green;
+	height: 40px;
+	width: 130px;
+}
+
+	li {
+	display: inline;
+	padding: 5px;
+	font-size: x-large;
+	font-weight: bold;
+	color: white;
+}
+
+	.four {
+	left: 400px;
+	top: 120px;
+	position: absolute;
+	width: 300px;
+	height: 50px;
+}
+
+	.facebook {
+  color: white;
+  position: absolute;
+  display: inline-block;
+  bottom: 40px;
+  left: 350px;
+  background-color: green;
+  border-color: green;
+ }
+
+ 	.five {
+ 	position: absolute;
+ 	display: inline-block;
+ 	bottom: 40px;
+ 	left: 400px;
+ 	background-color: green;
+ 	border-color: green;
+ 	color: white;
+  }
+
+	.six {
+  	position: absolute;
+ 	display: inline-block;
+ 	bottom: 40px;
+ 	left: 450px;
+ 	background-color: green;
+ 	border-color: green;
+ 	color: white;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+	p {
+	position: absolute;
+	top: 150px;
+	width: 30%;
+	left: 250px;
+	color: green;
+	font-size: 25px;
+}
+
+	.two {
+	display: inline-block;
+	position: absolute;
+	left: 100px;
+	bottom: 180px;
+	background-color: orange;
+	height: 40px;
+	width: 80px;
+}
+
+	img {
+	position: absolute; /* Sit on top of the page content */
+    display: inline-block; /* Hidden by default */
+    width: 30%; /* Full width (cover the whole page) */
+    height: 30%; /* Full height (cover the whole page) */
+    top: 200px; 
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other */
+}
+
+	.one {
+	display: inline-block;
+	position: absolute;
+	left: 200px;
+	bottom: 180px;
+	background-color: green;
+	height: 40px;
+	width: 80px;
+}
+
+	li {
+	display: inline;
+	padding: 5px;
+	font-size: x-large;
+	font-weight: bold;
+	color: white;
+}
+
+	.four {
+	left: 200px;
+	top: 120px;
+	position: absolute;
+	width: 125px;
+	height: 40px;
+}
+
+	.facebook {
+  color: white;
+  position: absolute;
+  display: inline-block;
+  bottom: 40px;
+  left: 150px;
+  background-color: green;
+  border-color: green;
+ }
+
+ 	.five {
+ 	position: absolute;
+ 	display: inline-block;
+ 	bottom: 40px;
+ 	left: 200px;
+ 	background-color: green;
+ 	border-color: green;
+ 	color: white;
+  }
+
+	.six {
+  	position: absolute;
+ 	display: inline-block;
+ 	bottom: 40px;
+ 	left: 250px;
+ 	background-color: green;
+ 	border-color: green;
+ 	color: white;
+  }
+
+}
